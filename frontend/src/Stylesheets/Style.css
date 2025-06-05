@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding:0;
+}
+.App{
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr  3fr;
+    grid-template-areas: 
+    'Sidebar Header Header Header'
+    'Sidebar Mainpart Mainpart Mainpart';
+    height:100vh;
+}
+
+.Header{
+    grid-area: Header;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+    background-color: #2f4050;
+}
+.right{
+    margin-right: 5px;
+}
+.Sidebar{
+    height:100%;
+    grid-area: Sidebar;
+    background-color: #2f4050;
+}
+.SidebarList{
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+.SidebarList.row{
+    width: 100%;
+    height: 50px;
+    margin:0%;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+.SidebarList.row{
+    background-color:#293846 ;
+    cursor: pointer;
+}
+.SidebarList.row #active{
+    background-color:#293846 ;
+}
+.row #icon{
+    flex:30%;
+    display:grid;
+    place-items: center;
+}
+.row #title{
+    flex:70%;
+}
+
+/* MainPart*/
+.Mainpart{
+    grid-area: Mainpart;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.Mainpart.row {
+    margin: 20px 0;
+  }
+
+  .card-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row when necessary */
+    gap: 20px; /* Spacing between cards in a row */
+  }
+  .card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+  }
