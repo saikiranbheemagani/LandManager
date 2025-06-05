@@ -1,0 +1,31 @@
+{
+    "success": true,
+    "message": "Assets retrieved successfully",
+    "data": [
+        {
+            "location": {
+                "city": "Hyderabad",
+                "district": "Medchal",
+                "pincode": "500090",
+                "surveycode": "2",
+                "landmarks": "Behind Hospital",
+                "locationLink": "hlink"
+            },
+            "_id": "657a1421aa1e12ddb33313ab",
+            "name": "Chicago PLOT24",
+            "description": "Imaginary Asset",
+            "user_id": "656d49d53bb81e2d5dfc2682",
+            "media": [
+                "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.adorama.com%2Falc%2Fwp-content%2Fuploads%2F2018%2F11%2Flandscape-photography-tips-yosemite-valley-feature.jpg&imgrefurl=https%3A%2F%2Fwww.adorama.com%2Falc%2Fbasic-landscape-photography-tips%2F&tbnid=i68D5IsriIqK6M&vet=12ahUKEwiiqMWHz8n1AhUy2nMBHa55DrIQMygAegUIARDTAQ..i&docid=0civwCR0PxZkaM&w=883&h=498&itg=1&q=landscape&ved=2ahUKEwiiqMWHz8n1AhUy2nMBHa55DrIQMygAegUIARDTAQ",
+                "https://www.gardeningknowhow.com/wp-content/uploads/2020/12/lonely-japanese-cherry-400x300.jpg"
+            ],
+            "projects": [
+                "657a1422aa1e12ddb33313ae"
+            ],
+            "subscriptionPlan": false,
+            "createdAt": "2023-12-13T20:29:21.592Z",
+            "updatedAt": "2023-12-13T20:29:22.562Z",
+            "__v": 1
+        }
+    ]
+}
